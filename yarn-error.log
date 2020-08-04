@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/srober225/.nvm/versions/node/v10.16.1/bin/node /Users/srober225/.nvm/versions/node/v10.16.1/bin/yarn init
+
+PATH: 
+  /Users/srober225/.nvm/versions/node/v10.16.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.16.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/Users/srober225/.nvm/versions/node/v10.16.1/lib/node_modules/yarn/lib/cli.js:136824:13)
+      at Interface.emit (events.js:198:13)
+      at Interface._ttyWrite (readline.js:801:16)
+      at ReadStream.onkeypress (readline.js:184:10)
+      at ReadStream.emit (events.js:198:13)
+      at emitKeys (internal/readline.js:424:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1075:36)
+      at ReadStream.emit (events.js:198:13)
+      at addChunk (_stream_readable.js:288:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
